@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/main.out.dir/main.cc.o -o main.out  libProject01.a 

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libProject01.a CMakeFiles/Project01.dir/src/queue.cc.o CMakeFiles/Project01.dir/src/stack.cc.o
+/usr/bin/ranlib libProject01.a
