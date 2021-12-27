@@ -1,4 +1,0 @@
-/home/lake/gitLocal/bottom-up-data-structure/Project01/CMakeFiles/Project01.dir
-/home/lake/gitLocal/bottom-up-data-structure/Project01/CMakeFiles/main.out.dir
-/home/lake/gitLocal/bottom-up-data-structure/Project01/CMakeFiles/edit_cache.dir
-/home/lake/gitLocal/bottom-up-data-structure/Project01/CMakeFiles/rebuild_cache.dir

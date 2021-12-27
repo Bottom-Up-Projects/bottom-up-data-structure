@@ -57,10 +57,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lake/gitLocal/bottom-up-data-structure/Project01
+CMAKE_SOURCE_DIR = /home/lake/gitLocal/bottom-up-data-structure/Project02
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lake/gitLocal/bottom-up-data-structure/Project01
+CMAKE_BINARY_DIR = /home/lake/gitLocal/bottom-up-data-structure/Project02
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lake/gitLocal/bottom-up-data-structure/Project01/CMakeFiles /home/lake/gitLocal/bottom-up-data-structure/Project01//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lake/gitLocal/bottom-up-data-structure/Project02/CMakeFiles /home/lake/gitLocal/bottom-up-data-structure/Project02//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lake/gitLocal/bottom-up-data-structure/Project01/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lake/gitLocal/bottom-up-data-structure/Project02/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,17 +117,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Project01
+# Target rules for targets named Project02
 
 # Build rule for target.
-Project01: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Project01
-.PHONY : Project01
+Project02: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Project02
+.PHONY : Project02
 
 # fast build rule for target.
-Project01/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project01.dir/build.make CMakeFiles/Project01.dir/build
-.PHONY : Project01/fast
+Project02/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project02.dir/build.make CMakeFiles/Project02.dir/build
+.PHONY : Project02/fast
 
 #=============================================================================
 # Target rules for targets named main.out
@@ -166,6 +166,78 @@ main.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.out.dir/build.make CMakeFiles/main.out.dir/main.cc.s
 .PHONY : main.cc.s
 
+src/deque.o: src/deque.cc.o
+.PHONY : src/deque.o
+
+# target to build an object file
+src/deque.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project02.dir/build.make CMakeFiles/Project02.dir/src/deque.cc.o
+.PHONY : src/deque.cc.o
+
+src/deque.i: src/deque.cc.i
+.PHONY : src/deque.i
+
+# target to preprocess a source file
+src/deque.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project02.dir/build.make CMakeFiles/Project02.dir/src/deque.cc.i
+.PHONY : src/deque.cc.i
+
+src/deque.s: src/deque.cc.s
+.PHONY : src/deque.s
+
+# target to generate assembly for a file
+src/deque.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project02.dir/build.make CMakeFiles/Project02.dir/src/deque.cc.s
+.PHONY : src/deque.cc.s
+
+src/iterator.o: src/iterator.cc.o
+.PHONY : src/iterator.o
+
+# target to build an object file
+src/iterator.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project02.dir/build.make CMakeFiles/Project02.dir/src/iterator.cc.o
+.PHONY : src/iterator.cc.o
+
+src/iterator.i: src/iterator.cc.i
+.PHONY : src/iterator.i
+
+# target to preprocess a source file
+src/iterator.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project02.dir/build.make CMakeFiles/Project02.dir/src/iterator.cc.i
+.PHONY : src/iterator.cc.i
+
+src/iterator.s: src/iterator.cc.s
+.PHONY : src/iterator.s
+
+# target to generate assembly for a file
+src/iterator.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project02.dir/build.make CMakeFiles/Project02.dir/src/iterator.cc.s
+.PHONY : src/iterator.cc.s
+
+src/vector.o: src/vector.cc.o
+.PHONY : src/vector.o
+
+# target to build an object file
+src/vector.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project02.dir/build.make CMakeFiles/Project02.dir/src/vector.cc.o
+.PHONY : src/vector.cc.o
+
+src/vector.i: src/vector.cc.i
+.PHONY : src/vector.i
+
+# target to preprocess a source file
+src/vector.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project02.dir/build.make CMakeFiles/Project02.dir/src/vector.cc.i
+.PHONY : src/vector.cc.i
+
+src/vector.s: src/vector.cc.s
+.PHONY : src/vector.s
+
+# target to generate assembly for a file
+src/vector.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Project02.dir/build.make CMakeFiles/Project02.dir/src/vector.cc.s
+.PHONY : src/vector.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -174,11 +246,20 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Project01"
+	@echo "... Project02"
 	@echo "... main.out"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/deque.o"
+	@echo "... src/deque.i"
+	@echo "... src/deque.s"
+	@echo "... src/iterator.o"
+	@echo "... src/iterator.i"
+	@echo "... src/iterator.s"
+	@echo "... src/vector.o"
+	@echo "... src/vector.i"
+	@echo "... src/vector.s"
 .PHONY : help
 
 
