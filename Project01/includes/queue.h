@@ -7,7 +7,7 @@ template <typename T>
 class queue {
     private:
     T* values;
-    size_t size_value;
+    size_t _size;
 
     public:
     queue();

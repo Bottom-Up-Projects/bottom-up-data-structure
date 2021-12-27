@@ -1,22 +1,24 @@
 cmake_minimum_required(VERSION 3.21)
 
 project(
-    Project01
+    Project02
 )
 
 set(CMAKE_CXX_STANDARD 17)
-set(LIBRARY_OUTPUT_NAME Project01)
+set(LIBRARY_OUTPUT_NAME Project02)
 set(INCLUDE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/includes)
 set(SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/src)
 
 set(HEADER_FILES 
-    ${INCLUDE_DIR}/queue.h
-    ${INCLUDE_DIR}/stack.h
+    ${INCLUDE_DIR}/deque.h
+    ${INCLUDE_DIR}/iterator.h
+    ${INCLUDE_DIR}/vector.h
 )
 
 set(SOURCE_FILES
-    ${SOURCE_DIR}/queue.cc
-    ${SOURCE_DIR}/stack.cc
+    ${SOURCE_DIR}/deque.cc
+    ${SOURCE_DIR}/iterator.cc
+    ${SOURCE_DIR}/vector.cc
 )
 
 add_library(
