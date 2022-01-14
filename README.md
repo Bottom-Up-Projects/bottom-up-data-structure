@@ -13,5 +13,27 @@
 
 ## Project 03
 
-1. Double Linked List
-2. Skip List
+1. List
+
+### Option
+
+1. Skip List
+
+## Project 04
+
+1. Set (AVL Tree)
+2. Map (AVL Tree)
+
+### Option
+
+1. Multiset (AVL Tree)
+2. Multimap (AvL Tree)
+
+## Project 05
+
+1. Unordered Map
+2. Unordered Set
+
+## Project 06
+
+1. Priority Queue
