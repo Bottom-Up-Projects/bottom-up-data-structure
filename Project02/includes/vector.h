@@ -21,6 +21,8 @@ class vector{
         vector(size_t size);
         vector(size_t size, const T& value);
         vector(const vector<T>& other);
+        template <class InputIt>
+        vector(InputIt first, InputIt last);
         ~vector();
 
         vector<T>& operator=(const vector<T>& other);
