@@ -11,6 +11,7 @@ class queue {
 
     public:
     queue();
+    queue(const queue<T>& other);
     ~queue();
 
     void push(T value);

@@ -11,6 +11,7 @@ class stack{
 
     public:
     stack();
+    stack(const stack<T>& other);
     ~stack();
     
     void push(T value);
