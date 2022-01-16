@@ -19,6 +19,8 @@ class deque{
         deque(size_t size);
         deque(size_t size, const T& value);
         deque(const deque<T>& other);
+        template <class InputIt>
+        deque(InputIt first, InputIt last);
         ~deque();
 
         deque& operator=(const deque<T>& other);
